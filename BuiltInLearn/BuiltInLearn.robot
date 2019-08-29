@@ -39,4 +39,5 @@ TimeDemo
     ${time} =  Get Time 
     ${year} =  Get Time  year
     ${month} =  Get Time  month
-    log  ${month}
+    ${day} =  Get Time  day
+    log  ${day}
