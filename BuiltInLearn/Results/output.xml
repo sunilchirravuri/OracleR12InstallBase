@@ -1,40 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20190829 17:52:35.092" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20190829 18:31:16.564" rpa="false">
 <suite id="s1" name="BuiltInLearn" source="C:\Users\chirras\PycharmProjects\BuiltInLearn\BuiltInLearn.robot">
-<test id="s1-t1" name="TimeDemo">
-<kw name="Get Time" library="BuiltIn">
-<doc>Returns the given time in the requested format.</doc>
-<assign>
-<var>${time}</var>
-</assign>
-<msg timestamp="20190829 17:52:35.132" level="INFO">${time} = 2019-08-29 17:52:35</msg>
-<status status="PASS" starttime="20190829 17:52:35.132" endtime="20190829 17:52:35.132"></status>
-</kw>
-<kw name="Get Time" library="BuiltIn">
-<doc>Returns the given time in the requested format.</doc>
+<test id="s1-t1" name="KeywordExistsDemo">
+<kw name="Keyword Should Exist" library="BuiltIn">
+<doc>Fails unless the given keyword exists in the current scope.</doc>
 <arguments>
-<arg>year</arg>
+<arg>KeywordExistDemo.Enter Log</arg>
+<arg>message="FAILED: Keyword does not exist"</arg>
 </arguments>
-<assign>
-<var>${year}</var>
-</assign>
-<msg timestamp="20190829 17:52:35.133" level="INFO">${year} = 2019</msg>
-<status status="PASS" starttime="20190829 17:52:35.133" endtime="20190829 17:52:35.133"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${year}</arg>
-</arguments>
-<msg timestamp="20190829 17:52:35.134" level="INFO">2019</msg>
-<status status="PASS" starttime="20190829 17:52:35.134" endtime="20190829 17:52:35.134"></status>
+<status status="PASS" starttime="20190829 18:31:16.614" endtime="20190829 18:31:16.614"></status>
 </kw>
 <tags>
-<tag>time</tag>
+<tag>keywordExists</tag>
 </tags>
-<status status="PASS" starttime="20190829 17:52:35.132" endtime="20190829 17:52:35.134" critical="yes"></status>
+<status status="PASS" starttime="20190829 18:31:16.613" endtime="20190829 18:31:16.615" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20190829 17:52:35.098" endtime="20190829 17:52:35.137"></status>
+<status status="PASS" starttime="20190829 18:31:16.569" endtime="20190829 18:31:16.616"></status>
 </suite>
 <statistics>
 <total>
@@ -42,7 +23,7 @@
 <stat pass="1" fail="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0">time</stat>
+<stat pass="1" fail="0">keywordExists</stat>
 </tag>
 <suite>
 <stat pass="1" fail="0" id="s1" name="BuiltInLearn">BuiltInLearn</stat>

@@ -1,5 +1,5 @@
 *** Settings ***
-
+Resource  KeywordExistDemo.robot
 *** Variables ***
 ${Values}
 
@@ -41,3 +41,8 @@ TimeDemo
     ${month} =  Get Time  month
     ${day} =  Get Time  day
     log  ${day}
+
+KeywordExistsDemo
+    [Tags]  keywordExists
+    keyword should exist  KeywordExistDemo.Enter Log  message="FAILED: Keyword does not exist"
+
