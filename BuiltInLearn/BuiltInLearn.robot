@@ -46,3 +46,10 @@ KeywordExistsDemo
     [Tags]  keywordExists
     keyword should exist  KeywordExistDemo.Enter Log  message="FAILED: Keyword does not exist"
 
+ViewLogOnConsole
+    [Tags]  LogConsole
+    Log To Console  ""
+    Log To Console	Hello, console!	
+    Log To Console	Hello, stderr!	STDERR
+    Log To Console	Message starts here and is	no_newline=true
+    Log To Console	continued without newline.	
