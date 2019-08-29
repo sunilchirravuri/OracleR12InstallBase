@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20190820 12:45:22.505" rpa="false">
+<suite id="s1" name="TestDemo" source="C:\Users\chirras\PycharmProjects\TestDemo\TestDemo.robot">
+<test id="s1-t1" name="Get Strings">
+<kw name="Split String" library="String">
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<arguments>
+<arg>${Navigation}</arg>
+<arg>:</arg>
+</arguments>
+<assign>
+<var>${NavigationLinks}</var>
+</assign>
+<msg timestamp="20190820 12:45:22.927" level="INFO">${NavigationLinks} = ['Instance', 'Instances']</msg>
+<status status="PASS" starttime="20190820 12:45:22.927" endtime="20190820 12:45:22.927"></status>
+</kw>
+<kw name="${NavigationLink} IN [ ${NavigationLinks} ]" type="for">
+<kw name="${NavigationLink} = ['Instance', 'Instances']" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${NavigationLink}</arg>
+</arguments>
+<msg timestamp="20190820 12:45:22.927" level="INFO">['Instance', 'Instances']</msg>
+<status status="PASS" starttime="20190820 12:45:22.927" endtime="20190820 12:45:22.927"></status>
+</kw>
+<status status="PASS" starttime="20190820 12:45:22.927" endtime="20190820 12:45:22.927"></status>
+</kw>
+<status status="PASS" starttime="20190820 12:45:22.927" endtime="20190820 12:45:22.927"></status>
+</kw>
+<status status="PASS" starttime="20190820 12:45:22.911" endtime="20190820 12:45:22.927" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190820 12:45:22.505" endtime="20190820 12:45:22.927"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="TestDemo">TestDemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
