@@ -6,7 +6,10 @@
     <option name="FILE_MASK" value="*.robot" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8620f735-6fd7-45f5-a11f-1bbea7ee6585" name="Default Changelist" comment="" />
+    <list default="true" id="8620f735-6fd7-45f5-a11f-1bbea7ee6585" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BuiltInLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BuiltInLearn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +17,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1PdyIUlUkdUPpMAC3yi9gIc0M3C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -50,5 +56,16 @@
       <updated>1566218187144</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
