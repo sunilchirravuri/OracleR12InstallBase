@@ -59,7 +59,7 @@ Click Logout Link
     Click Link  ${logout}
 
 Wait for successful logout message and close browser
-    Wait Until Element Is Visible  ${logout_message}  10s  "FAILED: Unable to Logout"
+    Wait Until Element Is Visible  ${logout_message}  30s  "FAILED: Unable to Logout"
     close browser
 
 wait for responsibility link
