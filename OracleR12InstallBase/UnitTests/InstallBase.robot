@@ -8,5 +8,4 @@ Test Teardown  Oracle Logout
 IB001
     [Documentation]  IB001 - DMT - Search Instance - Simple Search and Advanced Search
     [Tags]  IB
-    Common.Oracle Navigate  ${RESPONSIBILITY}  ${NAVIGATION}
     log  Empty1

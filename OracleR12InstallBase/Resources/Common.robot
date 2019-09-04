@@ -19,6 +19,7 @@ Oracle Login
     [Arguments]  ${USERNAME}  ${PASSWORD}
     Open Firefox with URL
     Enter Credentials and Submit
+    Oracle Navigate  ${RESPONSIBILITY}  ${NAVIGATION}
 
 Oracle Logout
     Click Logout Link
@@ -38,9 +39,9 @@ Navigate To
     [Arguments]  ${Navigation}
     @{NavigationArray} =  Split String  ${NAVIGATION}  :
     :FOR  ${NavigationLink}  IN  @{NavigationArray}
-        \  wait until element is visible  xpath=//a[text()='${NavigationLink}']  20s  "FAILED: Navigation NOT found"
-        \  log  Navigating to ${NavigationLink}
-        \  Click Link  xpath=//a[text()='${NavigationLink}']
+    \  wait until element is visible  xpath=//a[text()='${NavigationLink}']  20s  "FAILED: Navigation NOT found"
+    \  log  Navigating to ${NavigationLink}
+    \  Click Link  xpath=//a[text()='${NavigationLink}']
     sleep  5s
     log  successfully navigated to ${NavigationArray}
 
@@ -63,4 +64,3 @@ Wait for successful logout message and close browser
 
 wait for responsibility link
     wait until page contains element  xpath=//a[text()='${RESPONSIBILITY}']  20s  "FAILED: Responsibility NOT found"
-
