@@ -12,3 +12,6 @@ IB001
 
 Feature2 Test
     log  Feature2 test created and committed.
+
+Feature2 Test_NEW
+    log  Feature2_NEW test created and committed.
