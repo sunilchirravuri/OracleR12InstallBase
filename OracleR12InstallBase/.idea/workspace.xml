@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8620f735-6fd7-45f5-a11f-1bbea7ee6585" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Common.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Common.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests/InstallBase.robot" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/InstallBase.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,11 @@
     <favorites_list name="OracleR12InstallBase" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Feature1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
