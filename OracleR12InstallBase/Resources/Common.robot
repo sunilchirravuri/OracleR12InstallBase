@@ -39,7 +39,7 @@ Navigate To
     [Arguments]  ${Navigation}
     @{NavigationArray} =  Split String  ${NAVIGATION}  :
     :FOR  ${NavigationLink}  IN  @{NavigationArray}
-    \  wait until element is visible  xpath=//a[text()='${NavigationLink}']  20s  "FAILED: Navigation NOT found"
+    \  wait until element is visible  xpath=//a[text()='${NavigationLink}']  30s  "FAILED: Navigation NOT found"
     \  log  Navigating to ${NavigationLink}
     \  Click Link  xpath=//a[text()='${NavigationLink}']
     sleep  5s
