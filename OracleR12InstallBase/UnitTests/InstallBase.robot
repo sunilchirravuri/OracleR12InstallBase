@@ -11,4 +11,4 @@ IB001
     log  Empty1
 
 Feature2 Test
-    log  Feature2 test created
+    log  Feature2 test created and committed.
