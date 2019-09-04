@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8620f735-6fd7-45f5-a11f-1bbea7ee6585" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Demo_TFS/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo_TFS/.idea/Demo_TFS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo_TFS/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo_TFS/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo_TFS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo_TFS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo_TFS/DemoTFSGIT.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Common.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Common.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -92,14 +86,7 @@
       <option name="project" value="LOCAL" />
       <updated>1567581245237</updated>
     </task>
-    <task id="LOCAL-00005" summary="49201904 - Time out changed to 30s at line 52">
-      <created>1567581911404</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1567581911404</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,7 +107,6 @@
     <MESSAGE value="49201901" />
     <MESSAGE value="49201902" />
     <MESSAGE value="49201903" />
-    <MESSAGE value="49201904 - Time out changed to 30s at line 52" />
-    <option name="LAST_COMMIT_MESSAGE" value="49201904 - Time out changed to 30s at line 52" />
+    <option name="LAST_COMMIT_MESSAGE" value="49201903" />
   </component>
 </project>
