@@ -7,8 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8620f735-6fd7-45f5-a11f-1bbea7ee6585" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BuiltInLearn/BuiltInLearn.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../BuiltInLearn/BuiltInLearn.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Common.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Common.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Results/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests/InstallBase.robot" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/InstallBase.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -55,6 +60,14 @@
       <option name="presentableId" value="Default" />
       <updated>1566218187144</updated>
     </task>
+    <task id="LOCAL-00001" summary="39201901">
+      <created>1567498556472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567498556472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="39201901" />
+    <option name="LAST_COMMIT_MESSAGE" value="39201901" />
   </component>
 </project>
