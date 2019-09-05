@@ -6,8 +6,9 @@
     <option name="FILE_MASK" value="*.robot" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8620f735-6fd7-45f5-a11f-1bbea7ee6585" name="Default Changelist" comment="">
+    <list default="true" id="8620f735-6fd7-45f5-a11f-1bbea7ee6585" name="Default Changelist" comment="Merge remote-tracking branch 'origin/Feature1'&#10;&#10;# Conflicts:&#10;#&#9;OracleR12InstallBase/.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests/InstallBase.robot" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/InstallBase.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

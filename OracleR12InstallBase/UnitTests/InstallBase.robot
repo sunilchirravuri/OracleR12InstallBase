@@ -11,7 +11,9 @@ IB001
     log  Empty1
 
 Feature2 Test
+    [Tags]  IB
     log  Feature2 test created and committed.
 
 Feature2 Test_NEW
+    [Tags]  IB
     log  Feature2_NEW test created and committed.
