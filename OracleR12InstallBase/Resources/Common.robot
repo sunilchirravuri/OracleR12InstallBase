@@ -1,4 +1,5 @@
 *** Settings ***
+Library  OperatingSystem
 Library  SeleniumLibrary
 Library  String
 Resource  ../Resources/GlobalVariables.robot
@@ -46,6 +47,7 @@ Navigate To
     log  successfully navigated to ${NavigationArray}
 
 Open Firefox with URL
+    set environment variable  webdriver.gecko.driver  c:/bin/geckodriver.exe
     open browser  @{URL_AND_BROWSER}
 
 Enter Credentials and Submit

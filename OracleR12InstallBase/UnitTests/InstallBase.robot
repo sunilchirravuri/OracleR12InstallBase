@@ -3,7 +3,7 @@ Resource  ../Resources/Common.robot
 Resource  ../Resources/GlobalVariables.robot
 Test Setup  Oracle Login  ${USERNAME}  ${PASSWORD}
 Test Teardown  Oracle Logout
-
+#Jenkins Run : robot -d OracleR12InstallBase/results OracleR12InstallBase/unittests/InstallBase.robot
 *** Test Cases ***
 IB001
     [Documentation]  IB001 - DMT - Search Instance - Simple Search and Advanced Search
