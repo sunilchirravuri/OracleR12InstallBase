@@ -7,7 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8620f735-6fd7-45f5-a11f-1bbea7ee6585" name="Default Changelist" comment="Merge remote-tracking branch 'origin/Feature1'&#10;&#10;# Conflicts:&#10;#&#9;OracleR12InstallBase/.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/Resources/Input.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Common.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Common.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/GlobalVariables.robot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitTests/InstallBase.robot" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/InstallBase.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,10 +35,13 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1PdyIUlUkdUPpMAC3yi9gIc0M3C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
@@ -98,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567591715120</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/Feature1'&#10;&#10;# Conflicts:&#10;#&#9;OracleR12InstallBase/.idea/workspace.xml">
+      <created>1567667248638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567667248638</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +131,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="39201901" />
     <MESSAGE value="49201901" />
     <MESSAGE value="49201902" />
