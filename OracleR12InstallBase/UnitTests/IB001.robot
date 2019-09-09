@@ -1,14 +1,22 @@
 *** Settings ***
-Resource  ../Resources/Common.robot
-Library  DataDriver  file=../Resources/Input.xlsx  sheet_name=IB001
+Library  DataDriver  file=../data/Input.xlsx  sheet_name=IB001
 Resource  ../Resources/TestVariables.robot
-Test Template  IB001
+Resource  ../Resources/Common.robot
 
 #Jenkins Run : robot -d OracleR12InstallBase/results OracleR12InstallBase/unittests/IB001.robot
 *** Test Cases ***
+IB001 - DMT - Search Instance - Simple Search and Advanced Search
+    [Template]  IB001
+    ${USERNAME}
+    ${PASSWORD}
+    ${RESPONSIBILITY}
+    ${NAVIGATION}
+    ${INSTANCE_NUMBER}
+
+*** Keywords ***
 IB001
+    [arguments]  ${USERNAME}  ${PASSWORD}  ${RESPONSIBILITY}  ${NAVIGATION}
     [Documentation]  IB001 - DMT - Search Instance - Simple Search and Advanced Search
-    [Tags]  IB
-    Common.Oracle Login  ${USERNAME}  ${PASSWORD}
+    Common.Oracle Login  ${USERNAME}  ${PASSWORD}  ${RESPONSIBILITY}  ${NAVIGATION}
 
     Common.Oracle Logout

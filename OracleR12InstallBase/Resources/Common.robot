@@ -18,7 +18,7 @@ ${NavigationArray_last_link}
 
 *** Keywords ***
 Oracle Login
-    [Arguments]  ${USERNAME}  ${PASSWORD}
+    [Arguments]  ${USERNAME}  ${PASSWORD}  ${RESPONSIBILITY}  ${NAVIGATION}
     Open Firefox with URL
     Enter Credentials and Submit
     Oracle Navigate  ${RESPONSIBILITY}  ${NAVIGATION}
