@@ -1,8 +1,9 @@
 *** Settings ***
+Library  DataDriver  file=Input.xlsx  sheet_name=IB001
 Library  OperatingSystem
 Library  SeleniumLibrary
 Library  String
-Resource  ../Resources/GlobalVariables.robot
+Resource  ../Resources/TestVariables.robot
 Documentation  This Test is used for Common Repeatitive actions.
 
 *** Variables ***
