@@ -4,7 +4,7 @@ Resource  ../Resources/Common.robot
 Resource  ../Resources/GlobalVariables.robot
 Library  DataDriver  file=Input.xlsx  sheet_name=IB001
 Resource  ../Resources/Common.robot
-Library  DataDriver  file=../Resources/Input.xlsx  sheet_name=IB001
+Library  DataDriver  file=C:\Users\chirras\PycharmProjects\OracleR12InstallBase\Resources\Input.xlsx  sheet_name=IB001
 Resource  ../Resources/TestVariables.robot
 Test Template  IB001
 
