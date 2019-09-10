@@ -1,5 +1,4 @@
 *** Settings ***
-Library  DataDriver  file=Input.xlsx  sheet_name=IB001
 Library  OperatingSystem
 Library  SeleniumLibrary
 Library  String

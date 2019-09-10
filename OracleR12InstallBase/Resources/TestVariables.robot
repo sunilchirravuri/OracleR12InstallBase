@@ -1,6 +1,7 @@
 *** Variables ***
-${USERNAME}  ATCRMDNA
-${PASSWORD}  Oracle_12
-${RESPONSIBILITY}  Installed Base DMT User_DNA
-${NAVIGATION}  Item Instance:Item Instances
-${INSTANCE_NUMBER}   123456
+@{URL_AND_BROWSER}  https://sit12.diebold.com/OA_HTML/AppsLogin  ff
+${USERNAME}
+${PASSWORD}
+${RESPONSIBILITY}
+${NAVIGATION}
+${INSTANCE_NUMBER}

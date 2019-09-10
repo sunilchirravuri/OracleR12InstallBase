@@ -15,7 +15,7 @@ DMT Search Instance Simple Search and Advanced Search
 
 *** Keywords ***
 IB001
-    [arguments]  ${USERNAME}  ${PASSWORD}  ${RESPONSIBILITY}  ${NAVIGATION}
+    [arguments]  ${USERNAME}  ${PASSWORD}  ${RESPONSIBILITY}  ${NAVIGATION}  ${INSTANCE_NUMBER}
     [Documentation]  IB001 - DMT - Search Instance - Simple Search and Advanced Search
     Common.Oracle Login  ${USERNAME}  ${PASSWORD}  ${RESPONSIBILITY}  ${NAVIGATION}
 
